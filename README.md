@@ -79,3 +79,21 @@ From the Manage application menu create a new app
 # Application Created
 
 ![Application Created](images/10-application-created.png)
+
+# Check in cluster resources
+
+![Check Resources](images/11-check-resources.png)
+
+# Create sync window
+
+Go back to project configuration and select the "Add sync windows" button on top.
+
+![Sync Windows](images/12-sync-window.png)
+
+# Update chart
+
+Update deployment image by changing the `image: nginx` into `image: busybox` in the `values.yaml` file. Then commit and wait for the sync.
+
+# Verify synch
+
+![Application Synchronized](images/13-application-synchronized.png)
